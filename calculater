@@ -1,0 +1,22 @@
+name=input("enter student name :")
+
+roll_number=input("enter roll number :")
+
+science=float(input("enter marks for science : "))
+
+history=float(input("enter marks for history : "))
+
+math=float(input("enter marks for math : "))
+
+obtained_marks=science+history+math
+
+percentage=(obtained_marks/300)*100
+
+result="Pass"if percentage>=40 else "fail"
+
+print(f"student name:{name}")
+print(f"roll number:{roll_number}")
+print(f"total marks:{obtained_marks}")
+print(f"percentage:{percentage}")
+print(f"result:{result}")
+
